@@ -1,8 +1,11 @@
 # Gastown for [Obsidian.md](https://obsidian.md/)
 > A light theme for [Obsidian](https://obsidian.md/), compatible to Obsidian V0.5.0
 
+![screenshot 1](./ObsidianOne.png)
 
-### Install
+![Screenshot 2](./ObsidianTwo.png)
+
+## Install
 
 1. Download the obsidian.css file.
 
@@ -14,7 +17,7 @@
 
 Note: To achieve the best visual effect, please install the free fonts [Merriweather](https://fonts.google.com/specimen/Merriweather) and [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
-### Creator
+## Creator
 
 This theme is created and maintained by Nick. [Twitter](https://twitter.com/dogwaddle)
 
