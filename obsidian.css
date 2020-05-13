@@ -94,13 +94,8 @@ color: #AF3541 !important;
 /* when you hover over an internal link it gets slightly darker */
 
 .cm-s-obsidian span.cm-link:hover, .cm-s-obsidian span.cm-hmd-internal-link:hover {
-  color: rgb(10, 132, 255, 1);
-  font-weight: 600;
+ color:  #020F2B;
 }
-
-/*.cm-s-obsidian span.cm-link, .cm-s-obsidian span.cm-hmd-internal-link {
-
-}*/
 
 /* changing the color of hashtags in the editor */
 a.tag {
