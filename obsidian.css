@@ -437,6 +437,14 @@ color: #ECEFF2;
 .nav-folder.mod-root > .nav-folder-title:hover {
   color: #AF3541;
 }
+
+/* changing settings hotkey look */
+
+.setting-hotkey {
+background-color:  #ECEFF2;
+  font-family: 'Open Sans', sans-serif !important;
+
+}
 ------------------------
 
 
