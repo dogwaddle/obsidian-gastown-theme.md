@@ -445,6 +445,12 @@ background-color:  #ECEFF2;
   font-family: 'Open Sans', sans-serif !important;
 
 }
+
+/* hover over change hotkey */
+.setting-add-hotkey-button:hover {
+  background-color: #ECEFF2;
+  color: #020F2B;
+}
 ------------------------
 
 
