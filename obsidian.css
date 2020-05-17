@@ -1,5 +1,3 @@
-
-
 /*
 Color Pallete:
 White: #FFFFFF;
@@ -62,6 +60,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;                                                                                 /* Changing the Header font */
 }
 
+/* reworks how vertical notes open */
+.workspace-split.mod-vertical { overflow-x:auto; }
+.workspace-leaf, .workspace-split.mod-horizontal { min-width: 500px; }
+
+/* color of the bar between notes in editor*/
+.workspace-leaf-resize-handle {
+width: 2px !important;
+background-color: rgba(2, 15, 43, 0.3);
+}
+
 /* changing the color of linked text*/
 
 a {
@@ -94,8 +102,13 @@ color: #AF3541 !important;
 /* when you hover over an internal link it gets slightly darker */
 
 .cm-s-obsidian span.cm-link:hover, .cm-s-obsidian span.cm-hmd-internal-link:hover {
- color:  #020F2B;
+  color: #020F2B;
+
 }
+
+/*.cm-s-obsidian span.cm-link, .cm-s-obsidian span.cm-hmd-internal-link {
+
+}*/
 
 /* changing the color of hashtags in the editor */
 a.tag {
@@ -186,7 +199,17 @@ stroke: rgba(10, 132, 255, .30) !important;
     background-color: var(--background-primary);
     color: var(--text-normal);
 }
+/* note titles that aren't in focus */
+.view-header, .view-header-title {
+color: rgba(2, 15, 43);
+background-color: white !important;
 
+}
+
+.workspace-leaf.mod-active .view-header {
+    background-color: var(--background-primary-alt);
+    border-bottom: 2px solid #AF3541;
+}
 /* CHANGING HOW THE EDITOR MODE LOOKS */
 
 .cm-s-obsidian {
@@ -225,6 +248,10 @@ stroke: rgba(10, 132, 255, .30) !important;
   background-color: #020F2B !important;
 }
 
+/* kills the side dock ribbon transition which is distracting */
+.side-dock-ribbon-tab, .side-dock-ribbon-before, .side-dock-ribbon-after, .side-dock-ribbon-tab-inner {
+    transition: unset !important;
+}
 
 /* adjusting how highlighted text appears */
 mark {
@@ -243,6 +270,13 @@ mark {
   color: rgba(0, 0, 0, 0.8) !important;
 }
 
+/* matching search terms that are highlighted in editor*/
+
+.obsidian-search-match-highlight, .obsidian-search-match-highlight a {
+
+  color: black !important;
+  background-color: #feebc8  !important;
+}
 /* Adjusting the link brackets */
 
 .cm-s-obsidian .cm-formatting-link {
@@ -251,10 +285,9 @@ mark {
   color: rgb(10, 132, 255, 0.50) !important;
  }
 
- /* color of text in the file explorer */
- .nav-file-title
- {
-   color: rgba(0, 0, 0, 0.8) !important;
+ /* color of text in the file explorer / color: rgba(0, 0, 0, 0.8) !important */
+ .nav-file-title {
+   color: rgba(2, 15, 43, 0.8) !important;
  }
 
 /* color of text in the file explorer that is selected or hovered over */
@@ -445,12 +478,19 @@ background-color:  #ECEFF2;
   font-family: 'Open Sans', sans-serif !important;
 
 }
-
 /* hover over change hotkey */
 .setting-add-hotkey-button:hover {
   background-color: #ECEFF2;
   color: #020F2B;
 }
+
+/* adjusting color of code in markdown format convertor */
+
+.setting-item-description code {
+background-color: #647375;
+color: white;
+}
+
 ------------------------
 
 
