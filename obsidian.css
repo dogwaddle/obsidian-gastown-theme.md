@@ -208,7 +208,7 @@ background-color: white !important;
 
 .workspace-leaf.mod-active .view-header {
     background-color: var(--background-primary-alt);
-    border-bottom: 2px solid #AF3541;
+    border-bottom: 1px solid #AF3541;
 }
 /* CHANGING HOW THE EDITOR MODE LOOKS */
 
