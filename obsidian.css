@@ -1,3 +1,5 @@
+
+
 /*
 Color Pallete:
 White: #FFFFFF;
@@ -208,7 +210,7 @@ background-color: white !important;
 
 .workspace-leaf.mod-active .view-header {
     background-color: var(--background-primary-alt);
-    border-bottom: 1px solid #AF3541;
+    border-bottom: 2px solid #AF3541;
 }
 /* CHANGING HOW THE EDITOR MODE LOOKS */
 
@@ -327,7 +329,17 @@ color: #020F2B !important;
   font-style: normal !important;
   font-size: 16px !important;
   line-height: 24px !important;
+
 }
+
+.popover-title {
+  font-weight: 800;
+}
+
+.app-container {
+  overflow: hidden;
+}
+
 
 /* changes the color of code text within popover */
 .popover code {
@@ -489,6 +501,12 @@ background-color:  #ECEFF2;
 .setting-item-description code {
 background-color: #647375;
 color: white;
+}
+
+.view-header-title-container:after {
+
+background: white !important;
+
 }
 
 ------------------------
