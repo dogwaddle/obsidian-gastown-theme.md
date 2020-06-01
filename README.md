@@ -1,5 +1,5 @@
 # Gastown for [Obsidian.md](https://obsidian.md/)
-> A light theme for [Obsidian](https://obsidian.md/), compatible to Obsidian V0.5.0
+> A light theme for [Obsidian](https://obsidian.md/), compatible to Obsidian V0.6.5
 
 ![screenshot 1](./ObsidianOne.png)
 
