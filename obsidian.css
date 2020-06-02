@@ -503,11 +503,14 @@ background-color: #647375;
 color: white;
 }
 
+/* adjusting the title section of notes some more */
 .view-header-title-container:after {
 
 background: white !important;
+height: 36px;
 
 }
+
 
 ------------------------
 
