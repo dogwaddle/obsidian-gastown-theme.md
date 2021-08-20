@@ -1,3 +1,7 @@
+## Note to Visitors (08/20/2021)
+
+This theme has effectively been abandoned because I've been working on maintaing the primary theme I use called Lizardmen Zettelkasten (see my github page). If you like this theme a lot and want to see it continued, feel free to fix up whatever parts you'd like to and make a pull request.
+
 # Gastown for [Obsidian.md](https://obsidian.md/)
 > A light theme for [Obsidian](https://obsidian.md/), compatible to Obsidian V0.6.5
 
